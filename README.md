@@ -4,25 +4,25 @@ Submitted by: **Abir Mahmood**
 
 About this web app: **GearForPilots is a web-based aviation equipment directory designed to help pilots explore and evaluate essential flight gear. The platform displays aviation tools with structured attributes such as category, price tier, compatibility, and detailed descriptions. Each item has its own dynamic endpoint and detailed view, creating a scalable foundation for a future equipment comparison feature**
 
-Time spent: **X** hours
+Time spent: **8** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
-- [ ] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [ ] **The web app displays a title**
-- [ ] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [ ] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [ ] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [ ] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [ ] **The web app serves an appropriate 404 page when no matching route is defined**
+- [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
+- [x] **The web app displays a title**
+- [x] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
+- [] **The user can click on each item in the list to see a detailed view of it, including all database fields**
+  - [x] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
+  - [x] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
+- [x] **The web app serves an appropriate 404 page when no matching route is defined**
 - [ ] **The web app is styled using Picocss**
 
 The following **optional** features are implemented:
 
-- [ ] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [x] The web app displays items in a unique format, such as cards rather than lists or animated list items
 
 The following **additional** features are implemented:
 
@@ -30,26 +30,14 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-**Note: please be sure to 
+Here's a walkthrough demonstrating the implemented required features of the app:
 
-Here's a walkthrough of implemented required features:
+[🎬 Watch the Loom Video Demo](https://www.loom.com/share/21e7d6a71dae42828fe04af645b4ec42)
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Add GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Describe any challenges encountered while building the app or any additional context you'd like to add.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2026] [Abir Mahmood]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

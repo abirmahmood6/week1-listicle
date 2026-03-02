@@ -84,7 +84,7 @@ const gearData = [
     name: "Relief Bag (Travel John / Pee Bottle)",
     pricePoint: "$",
     audience: "Cross-Country Pilots",
-    image: "./images/logbook.png",
+    image: "./images/reliefbag.png",
     description: "Emergency relief system for long flights when restroom access is not available.",
     submittedBy: "Abir",
     submittedOn: "2026-03-01",

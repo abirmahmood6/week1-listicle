@@ -67,5 +67,13 @@ const renderGears = async () => {
   }
 };
 
-// Call the function to render gears on page load
-renderGears();
+// --- NEW: URL check for 404 ---
+const requestedURL = window.location.pathname.replace(/^\/+/, ''); // removes leading "/"
+
+if (requestedURL && requestedURL !== '' && requestedURL !== 'index.html') {
+  // User navigated to an unknown path → show 404 page
+  window.location.href = '/404.html';
+} else {
+  // On home page → render gears
+  renderGears();
+}
