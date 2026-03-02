@@ -1,3 +1,12 @@
+/* Home page CSS */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* better spacing between cards */
+    margin-top: 25px;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between; /* left and right edges */
@@ -36,4 +45,100 @@
 
 .header-right button:hover {
   background-color: #535bf2;
+}
+
+
+
+.card {
+    width: 300px;
+    height: 400px;
+    background: transparent;
+    border: 3px solid rgb(3, 7, 89);
+    border-radius: 0.3rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.top-container {
+    flex: 0 0 250px; /* fixed height */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-container {
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.bottom-container h3 {
+    margin: 0 0 6px 0;
+    font-size: 1.2rem;
+}
+
+.bottom-container p {
+    margin: 2px 0;
+    font-size: 0.95rem;
+}
+
+.bottom-container a {
+    color: rgb(228, 16, 133);
+    text-decoration: none;
+    margin-top: auto; /* push link to bottom */
+    font-weight: bold;
+}
+
+/* 404 Page CSS */
+.fof-container {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: black;
+}
+
+.fof {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fof h1 {
+    color: rgb(26, 25, 25);
+    font-size: 50px;
+    display: inline-block;
+    padding-right: 12px;
+    animation: type 0.6s alternate infinite;
+}
+
+@keyframes type {
+    from { box-shadow: inset -3px 0 0 #888; }
+    to { box-shadow: inset -3px 0 0 transparent; }
+}
+
+/* Detail Page CSS */
+.gift-info {
+    display: flex;
+    flex-wrap: wrap; /* responsive for smaller screens */
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container {
+    width: 40vw;
+    min-width: 250px; /* prevent too small */
+}
+
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.gift-details {
+    width: 45vw;
+    min-width: 250px;
 }
