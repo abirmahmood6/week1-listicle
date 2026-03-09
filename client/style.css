@@ -120,7 +120,7 @@ main {
 }
 
 /* Detail Page CSS */
-.gift-info {
+.gear-info {
     display: flex;
     flex-wrap: wrap; /* responsive for smaller screens */
     justify-content: center;
@@ -138,7 +138,7 @@ main {
     border-radius: 8px;
 }
 
-.gift-details {
+.gear-details {
     width: 45vw;
     min-width: 250px;
 }

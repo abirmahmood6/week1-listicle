@@ -70,7 +70,12 @@ const renderGears = async () => {
 // --- NEW: URL check for 404 ---
 const requestedURL = window.location.pathname.replace(/^\/+/, ''); // removes leading "/"
 
-if (requestedURL && requestedURL !== '' && requestedURL !== 'index.html') {
+if (
+  requestedURL &&
+  requestedURL !== '' &&
+  requestedURL !== 'index.html' &&
+  requestedURL !== 'gear.html'
+) {
   // User navigated to an unknown path → show 404 page
   window.location.href = '/404.html';
 } else {
