@@ -1,10 +1,10 @@
-# WEB103 Project 1 - *GearForPilots*
+# WEB103 Project 2 - *GearForPilots*
 
 Submitted by: **Abir Mahmood**
 
 About this web app: **GearForPilots is a web-based aviation equipment directory designed to help pilots explore and evaluate essential flight gear. The platform displays aviation tools with structured attributes such as category, price tier, compatibility, and detailed descriptions. Each item has its own dynamic endpoint and detailed view, creating a scalable foundation for a future equipment comparison feature**
 
-Time spent: **8** hours
+Time spent: **7** hours
 
 ## Required Features
 
@@ -12,17 +12,14 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [x] **The web app displays a title**
-- [x] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [x] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [x] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [x] **The web app serves an appropriate 404 page when no matching route is defined**
-- [ ] **The web app is styled using Picocss**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+  - [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [x]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+
 
 The following **optional** features are implemented:
 
-- [x] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [ ] The user can search for items by a specific attribute
 
 The following **additional** features are implemented:
 
@@ -30,10 +27,13 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough demonstrating the implemented required features of the app:
+Here's a walkthrough of the implemented required features:
 
-[🎬 Watch the Loom Video Demo](https://www.loom.com/share/21e7d6a71dae42828fe04af645b4ec42)
+[Loom Video Demo](https://www.loom.com/share/088c5a15c7874a6d9ab4e8b62f38b60a)
 
+## Notes
+
+Describe any challenges encountered while building the app or any additional context you'd like to add.
 
 ## License
 
